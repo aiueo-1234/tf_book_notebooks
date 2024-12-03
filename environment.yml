@@ -6,13 +6,12 @@ channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - cudatoolkit=11.3
-  - pytorch-scatter
+  - cudatoolkit
+  - cuda-version=11
   - pip
   - notebook
   - ipykernel
   - ipywidgets
   - git-lfs
   - libsndfile
-  - pip:
-      - -r requirements.txt
+  

@@ -1,10 +1,10 @@
 # Base requirements
-transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.16.2
-datasets[audio]==1.16.1
-matplotlib
-ipywidgets
+#transformers[tf,torch,sentencepiece,vision,optuna,sklearn,onnxruntime]==4.16.2
+#datasets[audio]==1.16.1
+#matplotlib
+#ipywidgets
 # Chapter 2 - Classification
-umap-learn==0.5.1
+# umap-learn==0.5.1
 # Chapter 3 - Anatomy
 bertviz==1.2.0
 # Chapter 4 - NER
@@ -19,4 +19,4 @@ nlpaug==1.1.7
 scikit-multilearn==0.2.0
 # Chapter 10 - Pretraining
 psutil
-accelerate==0.5.1
+#accelerate==0.5.1

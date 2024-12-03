@@ -1,0 +1,19 @@
+name: "zemi"
+services:
+  main:
+    container_name: conda
+    build:
+      context: .
+      args:
+        UID: 1000
+        USERNAME: dev
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: ["compute","utility"]
+              count: all
+    tty: true
+    volumes:
+      - ../:/home/dev/workspace/notebooks
