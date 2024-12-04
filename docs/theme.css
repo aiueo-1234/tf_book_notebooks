@@ -1,0 +1,13 @@
+/* @theme theme */
+
+@import 'default';
+
+pre.mermaid { all: unset; }
+
+* {
+  font: "noto-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mermaid {
+    font-size: 25px;
+  }
